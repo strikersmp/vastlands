@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="vastlands"
+version="1.0.0"
+displayName="Vast Lands"
+authors="Vast Lands"
+description='''
+An exploration-focused world type. Pick "Vast Lands" as the World Type when creating a world.
+
+Endless empty plains and savannas, rare forests, big hills, and very rare oceans and mountains that are
+enormous (peaks reach the engine's height limit). Includes dirt and grass slabs for levelling fields.
+'''
+
+[[dependencies.vastlands]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.vastlands]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"

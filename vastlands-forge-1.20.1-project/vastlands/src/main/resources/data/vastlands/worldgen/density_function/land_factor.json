@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:clamp",
+    "input": {
+      "type": "minecraft:mul",
+      "argument1": {
+        "type": "minecraft:add",
+        "argument1": {
+          "type": "minecraft:add",
+          "argument1": "vastlands:continent",
+          "argument2": 0.0
+        },
+        "argument2": 0.25
+      },
+      "argument2": 5.0
+    },
+    "min": 0.0,
+    "max": 1.0
+  }
+}

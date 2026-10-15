@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:clamp",
+    "input": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:add",
+        "argument1": "vastlands:base_height",
+        "argument2": "vastlands:lowland_term"
+      },
+      "argument2": {
+        "type": "minecraft:add",
+        "argument1": "vastlands:hills_term",
+        "argument2": "vastlands:mountain_term"
+      }
+    },
+    "min": 4.0,
+    "max": 1960.0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:noise",
+    "noise": "vastlands:continent",
+    "xz_scale": 0.55,
+    "y_scale": 0.0
+  }
+}

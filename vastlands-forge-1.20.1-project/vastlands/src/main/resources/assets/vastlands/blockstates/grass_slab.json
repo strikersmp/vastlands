@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vastlands:block/grass_slab"
+    },
+    "type=top": {
+      "model": "vastlands:block/grass_slab_top"
+    },
+    "type=double": {
+      "model": "vastlands:block/grass_slab_double"
+    }
+  }
+}

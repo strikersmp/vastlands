@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:mul",
+    "argument1": "vastlands:m_raw",
+    "argument2": "vastlands:land_factor"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:add",
+    "argument1": "vastlands:mountain_profile",
+    "argument2": {
+      "type": "minecraft:mul",
+      "argument1": "vastlands:m",
+      "argument2": {
+        "type": "minecraft:add",
+        "argument1": {
+          "type": "minecraft:mul",
+          "argument1": 230.0,
+          "argument2": {
+            "type": "minecraft:add",
+            "argument1": {
+              "type": "minecraft:add",
+              "argument1": 1.0,
+              "argument2": {
+                "type": "minecraft:mul",
+                "argument1": -1.0,
+                "argument2": {
+                  "type": "minecraft:mul",
+                  "argument1": 2.2,
+                  "argument2": {
+                    "type": "minecraft:abs",
+                    "argument": {
+                      "type": "minecraft:noise",
+                      "noise": "vastlands:ridge_large",
+                      "xz_scale": 1.0,
+                      "y_scale": 0.0
+                    }
+                  }
+                }
+              }
+            },
+            "argument2": -0.35
+          }
+        },
+        "argument2": {
+          "type": "minecraft:mul",
+          "argument1": 90.0,
+          "argument2": {
+            "type": "minecraft:add",
+            "argument1": {
+              "type": "minecraft:add",
+              "argument1": 1.0,
+              "argument2": {
+                "type": "minecraft:mul",
+                "argument1": -1.0,
+                "argument2": {
+                  "type": "minecraft:mul",
+                  "argument1": 2.2,
+                  "argument2": {
+                    "type": "minecraft:abs",
+                    "argument": {
+                      "type": "minecraft:noise",
+                      "noise": "vastlands:ridge_small",
+                      "xz_scale": 1.0,
+                      "y_scale": 0.0
+                    }
+                  }
+                }
+              }
+            },
+            "argument2": -0.35
+          }
+        }
+      }
+    }
+  }
+}

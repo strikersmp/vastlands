@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:add",
+    "argument1": 0.06,
+    "argument2": {
+      "type": "minecraft:mul",
+      "argument1": 0.95,
+      "argument2": "vastlands:rugged"
+    }
+  }
+}

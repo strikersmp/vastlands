@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:mul",
+      "argument1": 3.0,
+      "argument2": {
+        "type": "minecraft:square",
+        "argument": {
+          "type": "minecraft:clamp",
+          "input": {
+            "type": "minecraft:mul",
+            "argument1": "vastlands:m",
+            "argument2": 2.857142857142857
+          },
+          "min": 0.0,
+          "max": 1.0
+        }
+      }
+    },
+    "argument2": {
+      "type": "minecraft:mul",
+      "argument1": -2.0,
+      "argument2": {
+        "type": "minecraft:cube",
+        "argument": {
+          "type": "minecraft:clamp",
+          "input": {
+            "type": "minecraft:mul",
+            "argument1": "vastlands:m",
+            "argument2": 2.857142857142857
+          },
+          "min": 0.0,
+          "max": 1.0
+        }
+      }
+    }
+  }
+}

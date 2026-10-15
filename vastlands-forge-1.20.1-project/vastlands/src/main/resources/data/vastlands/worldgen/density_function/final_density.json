@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:interpolated",
+  "argument": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:mul",
+      "argument1": {
+        "type": "minecraft:add",
+        "argument1": "vastlands:ground",
+        "argument2": {
+          "type": "minecraft:mul",
+          "argument1": -1.0,
+          "argument2": "minecraft:y"
+        }
+      },
+      "argument2": "vastlands:steepness"
+    },
+    "argument2": {
+      "type": "minecraft:mul",
+      "argument1": "vastlands:detail_amp",
+      "argument2": "vastlands:detail3d"
+    }
+  }
+}

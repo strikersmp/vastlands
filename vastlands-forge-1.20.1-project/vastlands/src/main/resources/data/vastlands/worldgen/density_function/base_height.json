@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": "vastlands:continent",
+    "points": [
+      {
+        "location": -1.0,
+        "value": 6.0,
+        "derivative": 70.0
+      },
+      {
+        "location": -0.8,
+        "value": 20.0,
+        "derivative": 89.443652
+      },
+      {
+        "location": -0.62,
+        "value": 42.0,
+        "derivative": 126.362297
+      },
+      {
+        "location": -0.52,
+        "value": 55.0,
+        "derivative": 131.784583
+      },
+      {
+        "location": -0.46,
+        "value": 63.0,
+        "derivative": 114.285714
+      },
+      {
+        "location": -0.4,
+        "value": 69.0,
+        "derivative": 48.322148
+      },
+      {
+        "location": -0.3,
+        "value": 72.0,
+        "derivative": 0.0
+      },
+      {
+        "location": 1.0,
+        "value": 72.0,
+        "derivative": 0.0
+      }
+    ]
+  }
+}
