@@ -7,6 +7,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: vastlands-forge-1.20.1-project/vastlands
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-java@v4
@@ -20,4 +23,4 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: vastlands-jar
-          path: build/libs/*.jar
+          path: vastlands-forge-1.20.1-project/vastlands/build/libs/*.jar
